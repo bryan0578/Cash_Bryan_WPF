@@ -32,3 +32,12 @@ var neccessities = Number(prompt("Please enter the average amount that you spend
 var livingExpenses = Number(rent + utilities + mortgage + groceries + neccessities);
 var travelExpenses = Number(gas + car);
 
+//Finsished the expression to calculate how much the bills are total by adding the all together using casting to treat
+//string variable as a number and subtracting variable monthly pay from the rest. This could be simplified by taking
+//monthlyPay variable and subtracting it from var y, but I wanted to show the order of operations on how it would be done
+//if I did not need variable y to stand alone as its own variable.
+
+var x= Number(monthlyPay) - Number(livingExpenses + travelExpenses + personalLoans + cellPhone);
+var y = Number(livingExpenses + travelExpenses + personalLoans + cellPhone);
+
+
