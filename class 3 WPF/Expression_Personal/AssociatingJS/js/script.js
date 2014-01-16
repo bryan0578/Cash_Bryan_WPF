@@ -40,9 +40,13 @@ var travelExpenses = Number(gas + car);
 var x= Number(monthlyPay) - Number(livingExpenses + travelExpenses + personalLoans + cellPhone);
 var y = Number(livingExpenses + travelExpenses + personalLoans + cellPhone);
 
+//Create an alert to give the user his/her total cost of bills per month and how much he/she would have left over to use
+//for either savings or entertainment
 
 alert("Your total amount in bills are $" + y + " this leaves you with a total of $" +  x + " to use for savings" +
     " or entertainment");
+
+//print out variables y and x to test 
 
 console.log ("Your total amount in bills are $" + y + " this leaves you with a total of $"
     + x + " to use for savings" + " or entertainment" );
