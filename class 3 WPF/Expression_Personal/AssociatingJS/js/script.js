@@ -41,3 +41,8 @@ var x= Number(monthlyPay) - Number(livingExpenses + travelExpenses + personalLoa
 var y = Number(livingExpenses + travelExpenses + personalLoans + cellPhone);
 
 
+alert("Your total amount in bills are $" + y + " this leaves you with a total of $" +  x + " to use for savings" +
+    " or entertainment");
+
+console.log ("Your total amount in bills are $" + y + " this leaves you with a total of $"
+    + x + " to use for savings" + " or entertainment" );
