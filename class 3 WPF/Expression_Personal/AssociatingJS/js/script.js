@@ -7,7 +7,8 @@
 //would have left over each month to spend on entertainment or savings
 
 
-
+//Set up all variables with descriptive prompts to ensure the user can easliy interperet what is being asked of them
+//and made sure all prompts can be represented by numbers by casting the word number in front of the string variable
 
 var monthlyPay = Number(prompt("Please enter the exact amount of your monthly income, if there is no income please enter 0"));
 var rent = Number(prompt("Please enter the amount you pay for rent each month. If you do not pay rent please enter 0"));
@@ -24,4 +25,10 @@ var personalLoans = Number(prompt("Please enter your monthly amount is personal 
 var cellPhone = Number(prompt("Please enter your monthly cellphone payment. If you do not have a cellphone please enter 0"));
 var neccessities = Number(prompt("Please enter the average amount that you spend on neccessities, such as cleaning products, " +
     "haircut, medicine, cloths, ect. "));
+
+//Set up partial expression to calculate living expenses and travel expenses and casted number in from of the string
+//variable to make sure the variable is represented as a number
+
+var livingExpenses = Number(rent + utilities + mortgage + groceries + neccessities);
+var travelExpenses = Number(gas + car);
 
