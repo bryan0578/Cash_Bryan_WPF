@@ -36,13 +36,17 @@ var cassetteBinTotal = cassetteBin[0] + cassetteBin[1]+ cassetteBin[2];
 
 var musicTotal = cdBinTotal + cassetteBinTotal;
 
-
+//Add the total of all dvdBins in array to create a new result variable (dvdBinTotal), add the total of all bluRayBins
+//in array to create a result variable bluRayBinTotal. Add bluRayBinTotal and dvdBinTotal to create movieTotal variable
 
 var dvdBinTotal = dvdBin[0] + dvdBin[1] + dvdBin[2] + dvdBin[3] + dvdBin[4] + dvdBin[5];
 
 var bluRayBinTotal = bluRayBin[0] + bluRayBin[1] + bluRayBin[2] + bluRayBin[3] + bluRayBin[4] + bluRayBin[5];
 
 var movieTotal = dvdBinTotal + bluRayBinTotal;
+
+//Add the total of variable movieTotal and musicTotal to find out the total amount of items in stock create variable
+//totalInventory
 
 var totalInventory = movieTotal + musicTotal;
 
