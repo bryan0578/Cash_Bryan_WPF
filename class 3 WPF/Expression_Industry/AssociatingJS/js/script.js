@@ -56,10 +56,13 @@ var totalInventory = movieTotal + musicTotal;
 //are in stock. Then tells the user how many items total are in stock and also shows the store number the person who accessed
 //the information and the date the information was accessed
 
-alert("Store " + storeNumber + " has " + cdBinTotal + " CD's, " + cassetteBinTotal + " cassettes " + dvdBinTotal + " DVD's "
+alert("Store " + storeNumber + " has " + cdBinTotal + " CDs, " + cassetteBinTotal + " cassettes " + dvdBinTotal + " DVDs "
     + bluRayBinTotal + " BluRays. Total music is stock is " + musicTotal + ". Total movies in stock is " + movieTotal
     +". Total items in stock is " + totalInventory + ". Accessed by " + firstName + " " + lastName + " on " + date + ".")
 
-console.log(" Store " + storeNumber + " has " + cdBinTotal + " CD's, " + cassetteBinTotal + " cassettes " + dvdBinTotal + " DVD's "
+//Print variables storeNumber, cdBinTotal, cassetteBinTotal, dvdBinTotal, bluRayBinTotal, musicTotal, movieTotal,
+//totalInventory, firstName, lastName, and date to test calculations
+
+console.log(" Store " + storeNumber + " has " + cdBinTotal + " CDs, " + cassetteBinTotal + " cassettes " + dvdBinTotal + " DVDs "
     + bluRayBinTotal + " BluRays. Total music is stock is " + musicTotal + ". Total movies in stock is " + movieTotal +
     ". Total items in stock is " + totalInventory + ". Accessed by " + firstName + " " + lastName + " on " + date + ".");
