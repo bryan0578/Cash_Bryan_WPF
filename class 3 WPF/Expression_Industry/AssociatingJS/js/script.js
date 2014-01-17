@@ -17,3 +17,9 @@ var cassetteBin = [20, 15, 31];
 var dvdBin = [14, 35, 24, 11, 18, 15];
 var bluRayBin = [5, 17, 8, 9, 21, 14];
 
+var cdBinTotal = cdBins[0] + cdBins[1] + cdBins[2]+ cdBins[3] + cdBins[4]+ cdBins[5];
+
+var cassetteBinTotal = cassetteBin[0] + cassetteBin[1]+ cassetteBin[2];
+
+var musicTotal = cdBinTotal + cassetteBinTotal;
+
