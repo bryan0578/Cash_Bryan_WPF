@@ -15,16 +15,25 @@ alert("Please do NOT choose Jar Jar Binks")
 var planet = prompt("Please enter a planet from the Star Wars Universe")
 var ship = prompt("Please enter you favorite space ship from any of the Star Wars movies")
 
+//Used alert to deliver a little punch-line for the joke
+
 alert("If you were " + character + " flying the " + ship + " to " + planet + " you would not need to figure out how " +
     "add the areas of two rectangles")
 
 alert("Ok enough nonsense let's get to work")
+
+//Added variables width and height along with width1 and height1 and assigned them prompts that are casted as numbers
 
 var width = Number(prompt("Please enter the width"))
 var height = Number(prompt("Please enter the height"))
 
 var width1 = Number(prompt("Please enter the width of your second rectangle"))
 var height1 = Number(prompt("Please enter the height of your secong rectangle"))
+
+//To find the area of a rectangle we need to add the width and the height, if we need to add the area of two rectangles
+//we need to add each individual rectangle's width and height first then add the results together following the order
+//of operations. I also casted these variables to a Number so that the computer treats the variable as a number and
+//not a string
 
 var area = Number((width + height) + (width1 + height1))
 
