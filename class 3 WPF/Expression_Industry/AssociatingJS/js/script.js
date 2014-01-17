@@ -52,7 +52,9 @@ var movieTotal = dvdBinTotal + bluRayBinTotal;
 
 var totalInventory = movieTotal + musicTotal;
 
-//
+//Create an alert to tell the user how many CDs, Cassettes, DVDs, BluRays are in stock as well as how many movies and music
+//are in stock. Then tells the user how many items total are in stock and also shows the store number the person who accessed
+//the information and the date the information was accessed
 
 alert("Store " + storeNumber + " has " + cdBinTotal + " CD's, " + cassetteBinTotal + " cassettes " + dvdBinTotal + " DVD's "
     + bluRayBinTotal + " BluRays. Total music is stock is " + musicTotal + ". Total movies in stock is " + movieTotal
