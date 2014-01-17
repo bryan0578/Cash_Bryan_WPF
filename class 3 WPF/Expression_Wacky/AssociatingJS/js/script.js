@@ -2,10 +2,16 @@
 //Assignment: Expressions
 //Date: 1/16/2014
 
-//Expressions_Wacky
+//Expressions_Wacky: Program that will calculate the area of two rectangles and add them together. Why would we need
+//to know the area of two rectangles added together?.....Beats me, but I thought it was pretty wacky!
+
+//Starts off asking for user input, favorite character, plant and ship from the movie Star Wars outputs a little joke
+//about the program
 
 var character = prompt("Please enter your favorite Star Wars character")
+
 alert("Please do NOT choose Jar Jar Binks")
+
 var planet = prompt("Please enter a planet from the Star Wars Universe")
 var ship = prompt("Please enter you favorite space ship from any of the Star Wars movies")
 
