@@ -31,3 +31,10 @@ var movieTotal = dvdBinTotal + bluRayBinTotal;
 
 var totalInventory = movieTotal + musicTotal;
 
+alert("Store " + storeNumber + " has " + cdBinTotal + " CD's, " + cassetteBinTotal + " cassettes " + dvdBinTotal + " DVD's "
+    + bluRayBinTotal + " BluRays. Total music is stock is " + musicTotal + ". Total movies in stock is " + movieTotal
+    +". Total items in stock is " + totalInventory + ". Accessed by " + firstName + " " + lastName + " on " + date + ".")
+
+console.log(" Store " + storeNumber + " has " + cdBinTotal + " CD's, " + cassetteBinTotal + " cassettes " + dvdBinTotal + " DVD's "
+    + bluRayBinTotal + " BluRays. Total music is stock is " + musicTotal + ". Total movies in stock is " + movieTotal +
+    ". Total items in stock is " + totalInventory + ". Accessed by " + firstName + " " + lastName + " on " + date + ".");
