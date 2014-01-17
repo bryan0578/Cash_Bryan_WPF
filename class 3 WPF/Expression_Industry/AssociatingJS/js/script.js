@@ -57,12 +57,12 @@ var totalInventory = movieTotal + musicTotal;
 //the information and the date the information was accessed
 
 alert("Store " + storeNumber + " has " + cdBinTotal + " CDs, " + cassetteBinTotal + " cassettes " + dvdBinTotal + " DVDs "
-    + bluRayBinTotal + " BluRays. Total music is stock is " + musicTotal + ". Total movies in stock is " + movieTotal
+    + bluRayBinTotal + " BluRays. Total music in stock is " + musicTotal + ". Total movies in stock is " + movieTotal
     +". Total items in stock is " + totalInventory + ". Accessed by " + firstName + " " + lastName + " on " + date + ".")
 
 //Print variables storeNumber, cdBinTotal, cassetteBinTotal, dvdBinTotal, bluRayBinTotal, musicTotal, movieTotal,
 //totalInventory, firstName, lastName, and date to test calculations
 
 console.log(" Store " + storeNumber + " has " + cdBinTotal + " CDs, " + cassetteBinTotal + " cassettes " + dvdBinTotal + " DVDs "
-    + bluRayBinTotal + " BluRays. Total music is stock is " + musicTotal + ". Total movies in stock is " + movieTotal +
+    + bluRayBinTotal + " BluRays. Total music in stock is " + musicTotal + ". Total movies in stock is " + movieTotal +
     ". Total items in stock is " + totalInventory + ". Accessed by " + firstName + " " + lastName + " on " + date + ".");
