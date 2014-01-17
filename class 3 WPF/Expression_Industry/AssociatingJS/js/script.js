@@ -18,16 +18,25 @@ var date = prompt("Please enter the date");
 
 alert("Wlecome " + firstName +" " + lastName);
 
+//Create variables for arrays, there are 6 cd bins, 4 cassette bins, 6 dvd bins and 6 BluRay bins. Sort them into arrays
+//and count how many items are in each bin and entered them into an array by type (dvd, cd, BluRay, and cassette).
+
 var cdBins = [50, 50, 12, 11, 20, 35];
 var cassetteBin = [20, 15, 31];
 var dvdBin = [14, 35, 24, 11, 18, 15];
 var bluRayBin = [5, 17, 8, 9, 21, 14];
+
+//Add the total of all cd bins in array cdBins and create variable cdBinTotal to store the result, then add the total of
+//of all cassettes bins in array cassetteBin and store in variable cassetteBinTotal, finally add results of cdBinTotal
+//as cassetteBinTotal to create variable musicTotal.
 
 var cdBinTotal = cdBins[0] + cdBins[1] + cdBins[2]+ cdBins[3] + cdBins[4]+ cdBins[5];
 
 var cassetteBinTotal = cassetteBin[0] + cassetteBin[1]+ cassetteBin[2];
 
 var musicTotal = cdBinTotal + cassetteBinTotal;
+
+
 
 var dvdBinTotal = dvdBin[0] + dvdBin[1] + dvdBin[2] + dvdBin[3] + dvdBin[4] + dvdBin[5];
 
