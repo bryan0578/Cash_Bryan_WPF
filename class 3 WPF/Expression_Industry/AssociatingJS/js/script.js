@@ -3,12 +3,18 @@
 //Assignment: Expressions
 
 
-//Expression_Industry
+//Expression_Industry: This program will be used to calculate the amount of music and movies a music shop has. Using
+//arrays to store the amount of items in bins and adding them together to get a total, then add those totals to categorize
+//by music and movies, finally calculate all items in stock.
+
+//Create a greeting a store firstName, lastName, storeNumber, and date
 
 var firstName = prompt("Please enter your first name");
 var lastName = prompt("Please enter your last name");
 var storeNumber = prompt("Please enter store number");
 var date = prompt("Please enter the date");
+
+//Create greeting to welcome the user
 
 alert("Wlecome " + firstName +" " + lastName);
 
