@@ -28,7 +28,8 @@ var bluRayBin = [5, 17, 8, 9, 21, 14];
 
 //Add the total of all cd bins in array cdBins and create variable cdBinTotal to store the result, then add the total of
 //of all cassettes bins in array cassetteBin and store in variable cassetteBinTotal, finally add results of cdBinTotal
-//as cassetteBinTotal to create variable musicTotal.
+//as cassetteBinTotal to create variable musicTotal. This shows how many cassettes are in stock, how many CDs are in stock
+//and how much music total is in stock.
 
 var cdBinTotal = cdBins[0] + cdBins[1] + cdBins[2]+ cdBins[3] + cdBins[4]+ cdBins[5];
 
@@ -38,6 +39,7 @@ var musicTotal = cdBinTotal + cassetteBinTotal;
 
 //Add the total of all dvdBins in array to create a new result variable (dvdBinTotal), add the total of all bluRayBins
 //in array to create a result variable bluRayBinTotal. Add bluRayBinTotal and dvdBinTotal to create movieTotal variable
+//This shows how many DVDs total are in stock, how many total BluRays are in stock and how many movies total are in stock
 
 var dvdBinTotal = dvdBin[0] + dvdBin[1] + dvdBin[2] + dvdBin[3] + dvdBin[4] + dvdBin[5];
 
@@ -46,9 +48,11 @@ var bluRayBinTotal = bluRayBin[0] + bluRayBin[1] + bluRayBin[2] + bluRayBin[3] +
 var movieTotal = dvdBinTotal + bluRayBinTotal;
 
 //Add the total of variable movieTotal and musicTotal to find out the total amount of items in stock create variable
-//totalInventory
+//totalInventory. This shows how many total items are in stock.
 
 var totalInventory = movieTotal + musicTotal;
+
+//
 
 alert("Store " + storeNumber + " has " + cdBinTotal + " CD's, " + cassetteBinTotal + " cassettes " + dvdBinTotal + " DVD's "
     + bluRayBinTotal + " BluRays. Total music is stock is " + musicTotal + ". Total movies in stock is " + movieTotal
