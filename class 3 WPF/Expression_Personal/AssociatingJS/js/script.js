@@ -46,7 +46,8 @@ var y = Number(livingExpenses + travelExpenses + personalLoans + cellPhone);
 alert("Your total amount in bills are $" + y + " this leaves you with a total of $" +  x + " to use for savings" +
     " or entertainment");
 
-//print out variables y and x to test 
+//print out variables y and x to test
 
 console.log ("Your total amount in bills are $" + y + " this leaves you with a total of $"
     + x + " to use for savings" + " or entertainment" );
+
