@@ -37,5 +37,12 @@ var height1 = Number(prompt("Please enter the height of your secong rectangle"))
 
 var area = Number((width + height) + (width1 + height1))
 
+//I incorporated the user input variables in the alert along with the answer to the expression to tie everything up nice
+
 alert("Ok " + character + " flying the " + ship + " to " + planet + " the area of both rectangles added together are " +
+    area)
+
+//Print out variables character, ship, planet, and area to test calculation and joke combined
+
+console.log("Ok " + character + " flying the " + ship + " to " + planet + " the area of both rectangles added together are " +
     area)
