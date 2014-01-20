@@ -8,3 +8,14 @@ if(oldEnough){
     //code performed if condition is true
     console.log("You can ride the coaster");
 }
+
+//Conditionals Screencast Relational Expressions
+
+var kidHeight = 30;
+
+//if the kid is over 48 inches in height
+
+if(kidHeight > 48){
+    //code performed if condition is true
+    console.log("You can ride the coaster");
+}
