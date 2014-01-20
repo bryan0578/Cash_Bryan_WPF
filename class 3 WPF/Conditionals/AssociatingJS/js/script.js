@@ -11,7 +11,7 @@ if(oldEnough){
 
 //Conditionals Screencast Relational Expressions
 
-var kidHeight = 30;
+var kidHeight = 50;
 
 //if the kid is over 48 inches in height
 
