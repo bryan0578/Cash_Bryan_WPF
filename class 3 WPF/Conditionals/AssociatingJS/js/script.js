@@ -1,6 +1,6 @@
-//Conditionals Screencast Follow-along
+//Conditionals Screen cast Follow-along
 
-var oldEnough = false;
+var oldEnough = true;
 
 //if the chile is old enough, then print to the console "You can ride!"
 
@@ -9,7 +9,7 @@ if(oldEnough){
     console.log("You can ride the coaster");
 }
 
-//Conditionals Screencast Relational Expressions
+//Conditionals Screen cast Relational Expressions
 
 var kidHeight = 40;
 var minHeight = 48;
@@ -21,7 +21,7 @@ if(kidHeight > minHeight){
     console.log("You can ride the coaster");
 }
 
-//Conditionals Screencast Conditions with Expressions
+//Conditionals Screen cast Conditions with Expressions
 
 var kidHeight = 47;
 var minHeight = 48;
@@ -32,3 +32,7 @@ var sneakerLift = 2;
 if(kidHeight + sneakerLift > minHeight){
     //code performed if condition is true
     console.log("You can ride the coaster");
+}
+
+//Conditionals Screen cast If and Else
+
