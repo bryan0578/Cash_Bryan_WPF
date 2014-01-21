@@ -36,7 +36,7 @@ if(kidHeight + sneakerLift > minHeight){
 
 //Conditionals Screen cast If and Else
 
-var kidHeight = 47;
+var kidHeight = 50;
 var minHeight = 48;
 
 //if the kid is over 48 inches in height
