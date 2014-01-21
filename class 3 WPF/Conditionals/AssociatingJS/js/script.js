@@ -51,15 +51,15 @@ if(kidHeight > minHeight){
 
 //Conditionals Screen cast Logical Operators
 
-var budget = 300;
+var budget = 100;
 var iPhonePrice = 199.99;
 var wonLottery = true;
 
 //If the iPhonePrice is less than our budget AND our paycheck is greater than 300
 if(iPhonePrice < budget || wonLottery === true){
-    console.log("We can buy the phone!")
+    console.log("We can buy the phone!");
 }else{
-    console.log("No phone for you!")
+    console.log("No phone for you!");
 }
 
 
