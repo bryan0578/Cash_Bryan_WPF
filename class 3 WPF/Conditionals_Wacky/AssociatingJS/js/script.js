@@ -25,9 +25,9 @@ if(age <= 20 && side == "light"){
 
     //The user is a jedi padawan
 
-    alert("You are a Jedi Padawan");
+    alert("A Jedi Padawan you are!");
 
-    console.log("you are a jedi padawan");
+    console.log("A Jedi Padawan you are!");
 
 //If the user's age is less than or equal to 20 and they choose the dark side
 
@@ -35,9 +35,9 @@ if(age <= 20 && side == "light"){
 
     //The user is a sith apprentice
 
-    alert("you are a sith apprentice");
+    alert("Rise my Sith apprentice!");
 
-    console.log("you are a sith apprentice");
+    console.log("Rise my Sith Apprentice!");
 
 //If the user is older than 20 and they choose the light side
 
@@ -45,8 +45,8 @@ if(age <= 20 && side == "light"){
 
     //They are a Jedi Master
 
-    alert("you are a jedi knight");
+    alert("A Jedi Master you are!");
 
-    console.log("you are a jedi knight");
+    console.log("A Jedi Master you are!");
 
 }
