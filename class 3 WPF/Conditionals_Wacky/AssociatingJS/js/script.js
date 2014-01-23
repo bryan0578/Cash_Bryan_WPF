@@ -29,4 +29,13 @@ if(age <= 20 && side == "light"){
 
     console.log("you are a jedi padawan");
 
-}
+//If the user's age is less than or equal to 20 and they choose the dark side
+
+}else if(age <=20 && side == "dark"){
+
+    //The user is a sith apprentice
+
+    alert("you are a sith apprentice");
+
+    console.log("you are a sith apprentice");
+
