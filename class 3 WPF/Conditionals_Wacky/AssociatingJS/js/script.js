@@ -19,3 +19,14 @@ alert("Choose your destiny!");
 var age = prompt("Please Enter your age");
 var side = prompt("Please Enter Light for Light-side or Dark for Dark-side");
 
+//If the user's age is less than or equal to 20 and they choose the light side
+
+if(age <= 20 && side == "light"){
+
+    //The user is a jedi padawan
+
+    alert("You are a Jedi Padawan");
+
+    console.log("you are a jedi padawan");
+
+}
