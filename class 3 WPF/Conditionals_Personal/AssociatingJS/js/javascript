@@ -1,0 +1,18 @@
+//Name: Bryan Cash
+//Date: 1/21/2014
+//Assignment: Conditionals_Personal
+
+//Should I go to the store?
+
+//This program will tell me if I need to go to the store to buy eggs milk or bread, and tell me which of these items I
+//I will need to buy at the store
+
+//Prompt user to enter the amount of milk left in their container of milk by percent amount, prompt user to enter the
+//amount of eggs left in their container, and prompt user to answer yes or no to the question "Is there any bread?"
+
+var milk = prompt("Enter the amount of milk left in your container by percentage. For example if your container is full" +
+    "enter 100 if your container is half full enter 50, if your container is a quarter full enter 25.")
+var eggs = prompt("Enter the amount of eggs left in your container.")
+var answer = prompt("Is there any bread? Enter yes or no.")
+
+
