@@ -4,6 +4,8 @@
 
 //Are you an apprentice or a master? Choose your side and take over or protect the galaxy.
 
+//Here is another Wacky Star Wars program hope you enjoy!
+
 //This program takes your age and determines if you are an apprentice or a master and lets you choose a side dark or
 //light and them welcomes you to your destiny
 
