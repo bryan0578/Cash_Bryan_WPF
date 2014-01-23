@@ -55,4 +55,46 @@ if(answer == "yes" && milk >= 50 && eggs >= 6){
 
     console.log("I need to go to the store for milk and eggs")
 
+//If the user has no bread and more than or equal to a half of a container of milk and more than or equal to 6
+//eggs
+
+}else if(answer == "no" && milk >= 50 && eggs >= 6){
+
+    //The user needs to go to the store to buy bread
+
+    alert("I need to go to the store for bread")
+
+    console.log("I need to go to the store for bread")
+
+    //If the user has no bread and less than a half of a container of milk and more than or equal to 6 eggs
+
+}else if(answer == "no" && milk < 50 && eggs >= 6){
+
+    //The user needs to go to the store to buy bread and milk
+
+    alert("I need to go to the store for bread and milk")
+
+    console.log("I need to go to the store for bread and milk")
+
+    //If the user has no bread and more than or equal to half of a container of milk and less than 6 eggs
+
+}else if(answer == "no" && milk >= 50 && eggs < 6){
+
+    //The user will need to go to the store to buy bread and eggs
+
+    alert("I need to go to the store for bread and eggs")
+
+    console.log("I need to go to the store for bread and eggs")
+    //If the user has not met any of these conditions(has no bread and less than a half of a container of milk and
+    //less than 6 eggs
+
+}else{
+
+    //The user will need to go to the store to buy bread milk and eggs
+
+    alert("I need to stock up on bread, milk and eggs")
+
+
+    console.log("I need to stock up on bread, milk and eggs")
 }
+
