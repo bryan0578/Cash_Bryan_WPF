@@ -61,7 +61,7 @@ if(age <= 20 && side == "light"){
 }
 //Set up ternary to decide whether the user will be welcomed to the dark side or Welcomed to the jedi temple
 
-var sith = (side == "dark") ? "welcome to the dark side" : "welcome to the jedi temple"
+var sith = (side == "dark") ? "Welcome to the dark side!" : "To the Jedi Temple, I welcome you!"
 
 //alert the user with their welcome greeting
 
