@@ -39,3 +39,14 @@ if(age <= 20 && side == "light"){
 
     console.log("you are a sith apprentice");
 
+//If the user is older than 20 and they choose the light side
+
+}else if(age > 20 && side == "light"){
+
+    //They are a Jedi Master
+
+    alert("you are a jedi knight");
+
+    console.log("you are a jedi knight");
+
+}
