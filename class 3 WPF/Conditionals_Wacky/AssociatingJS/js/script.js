@@ -49,4 +49,13 @@ if(age <= 20 && side == "light"){
 
     console.log("A Jedi Master you are!");
 
+//If the user is older than 20 and they choose the dark side
+
+}else if(age > 20 && side == "dark"){
+
+    //The user is a Sith Lord
+
+    alert("I can feel your anger growing inside you. You are now a Dark Lord of the Sith!");
+
+    console.log ("I can feel your anger growing inside you. You are now a Dark Lord of the Sith!");
 }
