@@ -15,4 +15,13 @@ var milk = prompt("Enter the amount of milk left in your container by percentage
 var eggs = prompt("Enter the amount of eggs left in your container.")
 var answer = prompt("Is there any bread? Enter yes or no.")
 
+//if the user has bread, greater than or equal to half of a container of milk, and greater than or equal to 6 eggs
 
+if(answer == "yes" && milk >= 50 && eggs >= 6){
+
+    //The user does not need to go to the store
+
+    alert("I do not need to go to the store")
+
+    console.log("I do not need to go to the store")
+}
