@@ -8,13 +8,19 @@
 //Prompt user to enter the screen dimensions for their mobile device or enter "desktop" if they are using a desktop
 //computer.
 
-
 var desktop = prompt("If you are using a desktop please enter 1080x1240. If you are using a mobile device, enter mobile");
 var mobile = prompt("If you are using a mobile phone please enter one of the followig: for an Lg or Samsung, enter 400x240," +
     " for an Apple iPhone, enter 480x320, for a Nokia, enter 640x360, or for a Sony enter 800x400 if you are using a" +
     " desktop enter desktop.");
 
+//If the user is using a desktop enter 1080x1240 and mobile is equal to "desktop
+
 if(desktop == "1080x1240" && mobile == "desktop"){
+
+    //The users web page will be configured to be viewed on a desktop computer
+
+    alert("Your web page will be configured for a desktop computer.");
+    
     console.log("Your web page will be configured for a desktop computer.");
 
 }else if(desktop == "mobile" && mobile == "400x240"){
