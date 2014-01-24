@@ -30,7 +30,7 @@ if(desktop == "1080x1240" && mobile == "desktop"){
 
         //Alert the user that their web page will be configured for an LG or Samsung mobile phone
 
-        alert("Your web page will be configured for an LG or Samsung mobile phone.")
+        alert("Your web page will be configured for an LG or Samsung mobile phone.");
 
         console.log("Your web page will be configured for an LG or Samsung mobile phone.");
 
@@ -41,7 +41,7 @@ if(desktop == "1080x1240" && mobile == "desktop"){
 
             //Alert the user that their web page will be configured for an Apple iPhone
 
-            alert("Your web page will be configured for an Apple iPhone.")
+            alert("Your web page will be configured for an Apple iPhone.");
 
             console.log("Your web page will be configured for an Apple iPhone.");
 
@@ -53,15 +53,23 @@ if(desktop == "1080x1240" && mobile == "desktop"){
 
                 //Alert the user that their web page wil be configured for a Nokia mobile phone
 
-                alert("Your web page will be configured for a Nokia mobile phone.")
+                alert("Your web page will be configured for a Nokia mobile phone.");
 
                 console.log("Your web page will be configured for a Nokia mobile phone.");
 
+                //If the user is using a mobile device and the mobile device dimensions entered are 800x400
+
             } else {
                 if (desktop == "mobile" && mobile == "800x400") {
-                    console.log("Your desktop will be configured for a Sony mobile phone")
+
+                    //Alert the user that their web page will be configured for a Sony mobile phone
+
+                    alert("Your web page will be configured for a Sony mobile phone.");
+
+                    console.log("Your web page will be configured for a Sony mobile phone.");
+                    
                 } else {
-                    console.log("Your device is not compatible with our web page.")
+                    console.log("Your device is not compatible with our web page.");
                 }
             }
         }
