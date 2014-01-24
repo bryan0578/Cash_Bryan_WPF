@@ -67,9 +67,15 @@ if(desktop == "1080x1240" && mobile == "desktop"){
                     alert("Your web page will be configured for a Sony mobile phone.");
 
                     console.log("Your web page will be configured for a Sony mobile phone.");
-                    
+
                 } else {
-                    console.log("Your device is not compatible with our web page.");
+
+                    //If the user's entries does not match any of the conditions, alert the user that their web page
+                    //cannot be configured at this time
+
+                    alert("I'm sorry your web page cannot be configured at this time.");
+
+                    console.log("I'm sorry your web page cannot be configured at this time.");
                 }
             }
         }
