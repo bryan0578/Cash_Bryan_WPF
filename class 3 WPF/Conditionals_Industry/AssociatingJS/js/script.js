@@ -17,7 +17,7 @@ var mobile = prompt("If you are using a mobile phone please enter one of the fol
 
 if(desktop == "1080x1240" && mobile == "desktop"){
 
-    //The users web page will be configured to be viewed on a desktop computer
+    //alert the user that their web page will be configured to be viewed on a desktop computer
 
     alert("Your web page will be configured for a desktop computer.");
 
@@ -27,13 +27,20 @@ if(desktop == "1080x1240" && mobile == "desktop"){
 
 }else if(desktop == "mobile" && mobile == "400x240"){
 
-    //The user's web page will be configured for an LG or Samsung mobile phone
+    //Alert the user that their web page will be configured for an LG or Samsung mobile phone
 
     alert("Your web page will be configured for an LG or Samsung mobile phone.")
 
     console.log("Your web page will be configured for an LG or Samsung mobile phone.");
 
+    //If the user is using a mobile device and the mobile device dimensions entered are 480x320
+
 }else if(desktop == "mobile" && mobile == "480x320"){
+
+    //Alert the user that their web page will be configured for an Apple iPhone
+
+    alert("Your web page will be configured for an Apple iPhone.")
+    
     console.log("Your web page will be configured for an Apple iPhone.");
 
 }else if(desktop == "mobile" && mobile == "640x360"){
