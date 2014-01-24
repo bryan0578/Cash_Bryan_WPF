@@ -20,10 +20,17 @@ if(desktop == "1080x1240" && mobile == "desktop"){
     //The users web page will be configured to be viewed on a desktop computer
 
     alert("Your web page will be configured for a desktop computer.");
-    
+
     console.log("Your web page will be configured for a desktop computer.");
 
+    //If the user is using a mobile device and the mobile device dimensions entered are 400x240
+
 }else if(desktop == "mobile" && mobile == "400x240"){
+
+    //The user's web page will be configured for an LG or Samsung mobile phone
+
+    alert("Your web page will be configured for an LG or Samsung mobile phone.")
+
     console.log("Your web page will be configured for an LG or Samsung mobile phone.");
 
 }else if(desktop == "mobile" && mobile == "480x320"){
