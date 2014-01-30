@@ -28,10 +28,22 @@ var balance = function (assets, add, sub){
     return newBalance
 }
 
+//Created a normal named function finance()
+
 function finance(){
+
+    //prompt the user to enter the total amount of money they have in assets
+
 var assets = parseFloat(prompt("Please enter total amount of money in assets"));
 
+    //create while loop to make sure that the user inputs numbers and not strings or letters
+    //set assets equal to Number
+
 assets == Number
+
+    //While  assets is not a number alert the user to input a number and prompt the user to enter the total money in
+    //assets until the condition is met that the user entered a number for assets then break the loop and move on to the
+    //next block of code
 
 while(isNaN(assets)){
     alert("Please enter a valid number");
@@ -39,11 +51,18 @@ while(isNaN(assets)){
 
     break
 }
-
+//prompt user to enter the amount of money to add to their assets to show an increase
 
 var add = parseFloat(prompt("Please enter total amount to add to assets"));
 
+    //create while loop to make sure the user enters a number and not letters
+    //set the add equal to Number
+
 add == Number
+
+    //while add is not a number alert the user to input a number and prompt the user to enter the amount of money to
+    //add to the assets until the condition is met that add is equal to a number then break the loop and move on to the
+    //next block of code
 
 while(isNaN(add)){
     alert("Please enter a valid number");
