@@ -14,19 +14,8 @@
     //of their money
 
 
-//Set up an anonymous function with the variable balance and the function with the parameters set to assets, add and sub
-//variables so that when users enter their data it will be caught in the parameters and entered into the function
 
-var balance = function (assets, add, sub){
 
-    //code that takes the user's assets and adds the amount that the user enters that will increase their assets and then
-    //subtracts the spending.
-
-    var newBalance = (assets + add - sub)
-
-    //The return value is the variable newBalance
-    return newBalance
-}
 
 //Created a normal named function finance()
 
@@ -90,6 +79,20 @@ while(isNaN(sub)){
 
     break
 }
+
+    //Set up an anonymous function with the variable balance and the function with the parameters set to assets, add and sub
+//variables so that when users enter their data it will be caught in the parameters and entered into the function
+
+    var balance = function (assets, add, sub){
+
+        //code that takes the user's assets and adds the amount that the user enters that will increase their assets and then
+        //subtracts the spending.
+
+        var newBalance = (assets + add - sub)
+
+        //The return value is the variable newBalance
+        return newBalance
+    }
 
 //create variable new balance and invoke the anonymous function balance
 
