@@ -71,10 +71,18 @@ while(isNaN(add)){
     break
 }
 
+//prompt the user to enter the amount of spending from the assets
 
 var sub = parseFloat(prompt("Please enter the total amount spent from assets"));
 
+    //create a while loop to make sure the user enters a number and not letters
+    //set the variable equal to a number
+
 sub == Number
+
+    //while the variable is not a number alert the user to input a valid number and prompt the user to enter the total
+    //spending from assets until the condition is met that the variable is equal to a number then break the loop and move
+    //on to the next block of code
 
 while(isNaN(sub)){
     alert("Please enter a valid number");
@@ -83,18 +91,29 @@ while(isNaN(sub)){
     break
 }
 
+//create variable new balance and invoke the anonymous function balance
 
 var newBalance = balance(assets, add, sub);
 
+    //set variable newBalance equal to a number to check to make sure the calculation resulted in a number
+
      (newBalance == Number);
-    while(isNaN(newBalance)){
+
+    //if newBalance is not a number alert the user that something went wrong
+
+    if(isNaN(newBalance)){
         alert("Something went wrong!")
 
-        break
-    }
+        //else if newBalance is a number alert the user Your new balance is newBalance
 
+    }else if (!isNaN(newBalance)){
         alert("Your new balance is $" + newBalance);
+
+        //print Your new balance is newBalance to the console
+
         console.log(newBalance);
+
+    }
 
 
 }
