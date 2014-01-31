@@ -34,11 +34,21 @@ function calcBonus(production, products){
     return bonusAmount
 
 }
+//If the production amount is less than the product amount
 
 if(production < products){
+
+    //set variable bonus amount equal to the function calcBonus with the parameters of production and products
+
     var bonusAmount = calcBonus(production, products)
+
+    //alert the user of their bonus amount
+
     alert("Your bonus for today is $ " + bonusAmount)
+
 }else{
+
+    //else alert the user their bonus amount is 0
     alert("You bonus for today is $0.00")
 }
 
