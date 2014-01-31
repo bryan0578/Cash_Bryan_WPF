@@ -51,14 +51,21 @@ if(g >= 0){
 
     alert("The force tells me we will win this battle with " + g + " more troops than the separatists");
 
+    //print the alert to the console
+
+    console.log("The force tells me we will win this battle with " + g + " more troops than the separatists");
+
     //else if variable is less than 0
 
 }else if(g < 0){
 
-    //alert the user that they will loose the battle
-    
-        alert("The force tells me this is a battle we cannot win, we are outnumbered")
+    //alert the user that they will lose the battle
 
+        alert("The force tells me this is a battle we cannot win, we are outnumbered");
+
+    //print the result to the console they will lose
+
+    console.log("The force tells me this is a battle we cannot win, we are outnumbered");
 }
 
 
