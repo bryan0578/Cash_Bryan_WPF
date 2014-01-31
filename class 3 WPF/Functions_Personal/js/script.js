@@ -23,7 +23,7 @@ function finance(){
 
     //prompt the user to enter the total amount of money they have in assets
 
-var assets = parseFloat(prompt("Please enter total amount of money in assets"));
+var assets = parseFloat(prompt("Please enter total amount of money in assets if none enter 0"));
 
     //create while loop to make sure that the user inputs numbers and not strings or letters
     //set assets equal to Number
@@ -36,13 +36,13 @@ assets == Number
 
 while(isNaN(assets)){
     alert("Please enter a valid number");
-    parseFloat(prompt("Please enter total amount of money in assets"));
+    parseFloat(prompt("Please enter total amount of money in assets if none enter 0"));
 
     break
 }
 //prompt user to enter the amount of money to add to their assets to show an increase
 
-var add = parseFloat(prompt("Please enter total amount to add to assets"));
+var add = parseFloat(prompt("Please enter total amount to add to assets if none enter 0"));
 
     //create while loop to make sure the user enters a number and not letters
     //set the add equal to Number
@@ -55,14 +55,14 @@ add == Number
 
 while(isNaN(add)){
     alert("Please enter a valid number");
-    parseFloat(prompt("Please enter total amount to add to assets"));
+    parseFloat(prompt("Please enter total amount to add to assets if none enter 0"));
 
     break
 }
 
 //prompt the user to enter the amount of spending from the assets
 
-var spend = parseFloat(prompt("Please enter the total amount spent from assets"));
+var spend = parseFloat(prompt("Please enter the total amount spent from assets if none enter 0"));
 
     //create a while loop to make sure the user enters a number and not letters
     //set the variable equal to a number
@@ -75,7 +75,7 @@ spend == Number
 
 while(isNaN(spend)){
     alert("Please enter a valid number");
-    parseFloat(prompt("Please enter the total amount spent from assets"));
+    parseFloat(prompt("Please enter the total amount spent from assets if none enter 0"));
 
     break
 }
@@ -114,7 +114,7 @@ var newBalance = balance(assets, add, spend);
         //else if newBalance is a number alert the user Your new balance is newBalance
 
     }else if (!isNaN(newBalance)){
-        
+
         alert("Your new balance is $" + newBalance);
 
         //print Your new balance is newBalance to the console
