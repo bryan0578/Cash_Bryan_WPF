@@ -6,6 +6,8 @@
 //Date: 1/30/2014
 //Assignment: Functions_Wacky
 
+    //This program will calculate the chances that the republic will win against the separatists
+
 var jedi = Number(prompt("Please enter the amount of Jedi in your Jedi Counsel"));
 var sith = Number(prompt("Please enter the amount of sith you will fighting"));
 var clones = Number(prompt("Please enter the amount of Republic troops"));
