@@ -43,8 +43,14 @@ function calc(jedi, clones, sith, droids){
 
 var g = calc(jedi, clones, sith , droids);
 
+//if variable set to function is greater than or equal to 0
+
 if(g >= 0){
+
+    //alert the user that they will win
+
     alert("The force tells me we will win this battle with " + g + " more troops than the separatists");
+    
 }else if(g < 0){
 
         alert("The force tells me this is a battle we cannot win, we are outnumbered")
