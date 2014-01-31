@@ -18,10 +18,19 @@ var products = Number(prompt("How many products did you package today?"));
     bonus1 = (production < products) ? "You have exceeded your productions goals for today" : "You have not exceeded" +
         " your production goals for today. You will not receive a bonus at this time";
     alert(bonus1);
-    
+
+//Create a function calBonus to calculate to bonusAmount
 
 function calcBonus(production, products){
+
+    //expression that takes the amount of products and subtracts it from the amount given from the production prompt
+    //and multiplies it by .50 cents. This means each product packed over the production goal will result in a .50 cent
+    //increase amount towards the users bonus
+
     var bonusAmount = parseFloat(products - production) * .50
+
+    //return the bonus amount
+
     return bonusAmount
 
 }
