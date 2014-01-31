@@ -24,8 +24,17 @@ var clones = Number(prompt("Please enter the amount of Republic troops"));
 
 var droids = Number(prompt("Please enter the amount of separatist droids"));
 
+//Create a function that will calculate the range of troops.
+
 function calc(jedi, clones, sith, droids){
+
+    //Add amount of jedi and the amount of clones, add the amount of sith and the amount of droids and subtract jedi +
+    //clones from sith + droids
+
     troops = (jedi + clones) - (sith + droids)
+
+    //return the calculation
+    
     return troops
 
 }
