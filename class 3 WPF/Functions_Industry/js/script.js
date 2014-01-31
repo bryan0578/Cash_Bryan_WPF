@@ -38,18 +38,28 @@ function calcBonus(production, products){
 
 if(production < products){
 
-    //set variable bonus amount equal to the function calcBonus with the parameters of production and products
+    //set variable bonus amount equal to the function calcBonus (invoke function) with the parameters of production and products
 
-    var bonusAmount = calcBonus(production, products)
+    var bonusAmount = calcBonus(production, products);
 
     //alert the user of their bonus amount
 
-    alert("Your bonus for today is $ " + bonusAmount)
+    alert("Your bonus for today is $ " + bonusAmount);
+
+    //print to console the amount the user will get in bonuses
+
+    console.log("Your bonus for today is $ " + bonusAmount);
 
 }else{
 
     //else alert the user their bonus amount is 0
-    alert("You bonus for today is $0.00")
+
+    alert("You bonus for today is $0.00");
+
+    //print to console the users bonus amount is 0
+
+    console.log("You bonus for today is $0.00");
+
 }
 
 
