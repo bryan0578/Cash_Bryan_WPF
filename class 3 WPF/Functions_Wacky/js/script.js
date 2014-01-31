@@ -34,10 +34,12 @@ function calc(jedi, clones, sith, droids){
     troops = (jedi + clones) - (sith + droids)
 
     //return the calculation
-    
+
     return troops
 
 }
+
+//set variable equal to the function(invoke function with parameters set as jedi, clones, sith and droids
 
 var g = calc(jedi, clones, sith , droids);
 
