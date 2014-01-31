@@ -50,9 +50,13 @@ if(g >= 0){
     //alert the user that they will win
 
     alert("The force tells me we will win this battle with " + g + " more troops than the separatists");
-    
+
+    //else if variable is less than 0
+
 }else if(g < 0){
 
+    //alert the user that they will loose the battle
+    
         alert("The force tells me this is a battle we cannot win, we are outnumbered")
 
 }
