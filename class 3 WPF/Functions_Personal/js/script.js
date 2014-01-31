@@ -114,7 +114,7 @@ var newBalance = balance(assets, add, sub);
 
         //print Your new balance is newBalance to the console
 
-        console.log(newBalance);
+        console.log("Your new balance is $ " + newBalance);
 
     }
 
