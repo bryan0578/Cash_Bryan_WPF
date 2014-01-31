@@ -107,9 +107,14 @@ var newBalance = balance(assets, add, spend);
     if(isNaN(newBalance)){
         alert("Something went wrong!")
 
+        //print to the console something must have gone wrong
+
+        console.lo("Something went wrong")
+
         //else if newBalance is a number alert the user Your new balance is newBalance
 
     }else if (!isNaN(newBalance)){
+        
         alert("Your new balance is $" + newBalance);
 
         //print Your new balance is newBalance to the console
@@ -124,3 +129,6 @@ var newBalance = balance(assets, add, spend);
 
 finance();
 
+//could be more user friendly, I wanted to create a function that I could call to check is assets, add and spend were all
+//numbers but could not figure out how to do it. Also if a letter is entered and then corrected it will say that the
+//newBalace is not a number. I could not figure out why
