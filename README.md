@@ -2,4 +2,4 @@
 
 __WPF__ Web Programming Fundamentals
 
-The code in this repository is the first bits of code that I have ever written. Little bits of neat Java Script code that gave my web browser life when I first began coding. Enjoy!
+This repository contains some of the very first code I have ever written learning Web Programming Fundamentals. All of the code is JavaScript that runs in an HTML document. This repository also contains a flow chart on the process of shaving as wells as a problem solving activity document that I completed for course. We were given problems and told to solve them in as many ways as possible. Enjoy!!
