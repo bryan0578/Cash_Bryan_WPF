@@ -14,4 +14,5 @@ To run each code:
 1. Download all the files in the repository
 2. Open the file you wish to test
 3. Click on the index.html file
+4. __Most Importantly ENJOY!__
 
