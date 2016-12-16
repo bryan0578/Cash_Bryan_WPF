@@ -9,10 +9,10 @@
 
 //Create a greeting a store firstName, lastName, storeNumber, and date
 
-var firstName = prompt("Please enter your first name");
-var lastName = prompt("Please enter your last name");
-var storeNumber = prompt("Please enter store number");
-var date = prompt("Please enter the date");
+var firstName = prompt("Please Enter Your First Name");
+var lastName = prompt("Please Enter Your Last Name");
+var storeNumber = prompt("Please Enter Store Number");
+var date = prompt("Please Enter Today's Date");
 
 //Create greeting to welcome the user
 
