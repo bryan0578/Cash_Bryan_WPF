@@ -18,7 +18,7 @@ var dogAge = sparkysAge * DOGYEARS
 
 //print variables sparkysAge and dogAge
 
-console.log("Sparky is " + sparkysAge + " human years old which is " + dogAge + " in dog years!");
+document.write("Sparky is " + sparkysAge + " human years old which is " + dogAge + " in dog years!");
 
 
 
@@ -36,7 +36,7 @@ var slicePerStudent = pizza * SLICES / students;
 
 //Print variable slicePerStudent
 
-console.log("Each person ate " + slicePerStudent + " slices of pizza at the party.");
+document.write("Each person ate " + slicePerStudent + " slices of pizza at the party.");
 
 
 //At the pizza party Sparky, the host’s dog is excited, because he gets the leftover pizza after the slices have been
@@ -48,7 +48,7 @@ console.log("Each person ate " + slicePerStudent + " slices of pizza at the part
 var students = 20;
 var pizza = 10;
 var slicePerStudent = 4;
-const SLICES = 8;
+
 
 //multiply var pizza and const slices, then multiply the var students and the slicePerStudent, using parenthesis to make
 //sure that the first multiplication is separate from the second multiplication and subtract the result of pizza and
@@ -58,7 +58,7 @@ var leftovers = (pizza * SLICES) - (students * slicePerStudent);
 
 //print variable leftovers
 
-console.log("Sparky got " + leftovers + " slices of pizza");
+document.write("Sparky got " + leftovers + " slices of pizza");
 
 //poor sparky doesn't get any pizza
 
@@ -80,7 +80,7 @@ var average = total / 5;
 
 //print variables total and average
 
-console.log("You have spent a total of $" + total + " on groceries over 5 weeks. That is an average of $" + average +
+document.write("You have spent a total of $" + total + " on groceries over 5 weeks. That is an average of $" + average +
     " per week");
 
 
@@ -107,7 +107,7 @@ var total = subtotal + (subtotal * taxPercent);
 
 //Print variables item, price, discountPercent, subtotal and total.
 
-console.log("Your " + item + " was originally $" + price + " ,but after a " + discountPercent + "% discount, it is now"
+document.write("Your " + item + " was originally $" + price + " ,but after a " + discountPercent + "% discount, it is now"
     + " $" + subtotal + " without tax, and $" + total + " with tax.");
 
 
