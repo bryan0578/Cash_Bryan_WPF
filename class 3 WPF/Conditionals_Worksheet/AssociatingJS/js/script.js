@@ -12,6 +12,12 @@
 
 
 
-var degCent = prompt("Please enter the degree in celsius" + (degFarh - 32) * 5 / 9)
-var degFarh = prompt("Please enter the degree in fahrenheit" + (degCent * 9) / 5 +32)
-var unit = prompt("Please enter C for celsius or F for fahrenheit")
+var num = prompt("Please enter numeric value of the temperature you would like to convert");
+var unit = prompt("To covert from Fahrenheit to Celsius enter C, To convert from Celsius to Fahrenheit enter F");
+	if (unit = "c") {
+		var temp = (num - 32) * 5 / 9;
+		alert("The temperature is " + temp + " degrees Celsius!");
+	} else {
+		var temp = (num * 9) / 5 + 32;
+		alert("The temperature is " + temp + " degrees Fahrenheit!");
+	}
