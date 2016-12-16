@@ -8,19 +8,19 @@
 //Starts off asking for user input, favorite character, plant and ship from the movie Star Wars outputs a little joke
 //about the program
 
-var character = prompt("Please enter your favorite Star Wars character");
+var character = prompt("Hey who's your favorite Star Wars character?");
 
-alert("Please do NOT choose Jar Jar Binks");
+alert("I hope you didn't choose Jar Jar Binks");
 
-var planet = prompt("Please enter a planet from the Star Wars Universe");
-var ship = prompt("Please enter you favorite space ship from any of the Star Wars movies");
+var planet = prompt("What planet from the Star Wars Universe would you like to visit?");
+var ship = prompt("If you could fly your favorite Star Wars ship this planet, which ship would you fly?");
 
 //Used alert to deliver a little punch-line for the joke
 
 alert("If you were " + character + " flying the " + ship + " to " + planet + " you would not need to figure out how " +
-    "add the  surface areas of two rectangles");
+    "to add the surface areas of two rectangles!");
 
-alert("Ok enough nonsense let's get to work");
+alert("Ok enough nonsense let's get to work. OK?");
 
 //Added variables width and height and length along with width1 and height1 and assigned them prompts that are casted as numbers
 
@@ -48,4 +48,4 @@ alert("Ok " + character + " flying the " + ship + " to " + planet + " the surfac
 //Print out variables character, ship, planet, and area to test calculation and joke combined
 
 console.log("Ok " + character + " flying the " + ship + " to " + planet + " the surface area of both rectangles added together are " +
-    surfaceArea + "inches");
+    surfaceArea + " inches");
