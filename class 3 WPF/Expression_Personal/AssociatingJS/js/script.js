@@ -15,7 +15,7 @@ var rent = Number(prompt("Please enter the amount you pay for rent each month. I
 var utilities = Number(prompt("Please enter the COMBINED total of all your utility bills. If you do not pay any utilities," +
     "please enter 0"));
 var groceries = Number(prompt("Please enter the amount of your monthly average grocery spending. If you do not pay for" +
-    "groceries, please enter 0"));
+    " groceries, please enter 0"));
 var gas = Number(prompt("Please enter the amount of your monthly average spent on gasoline. If you ride the bus you may enter" +
     "your monthly average in bus fair. Otherwise please enter 0"));
 var car = Number(prompt("Please enter your monthly car payment, if you do not pay a car payment, please enter 0"));
