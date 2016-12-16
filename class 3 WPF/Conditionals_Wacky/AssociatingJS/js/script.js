@@ -11,8 +11,8 @@
 
 //Alert user about the program
 
-alert("Are you an apprentice or a master?");
-alert("Choose your destiny!");
+
+alert("Welcome to Choose Your destiny!");
 
 //prompt user to enter age to determine whether or not they are an apprentice or a master
 
