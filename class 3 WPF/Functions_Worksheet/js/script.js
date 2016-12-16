@@ -15,7 +15,7 @@ var cir = function(radius){
 //Invoke the function setting the radius parameter as 20
 var a = cir(20);
 //Print the result of the function in the console
-console.log("The circumference of the circle is " + a);
+document.write("The circumference of the circle is " + a);
 
 
 //The amount of bee stings to kill a 300 lb moose
@@ -29,4 +29,4 @@ var moose = function(weight){
 //Invoke function setting the weight radius as 300
 var a = moose(300);
 //Print the result of the function in the console
-console.log("It takes " + a + " to kill this animal");
+document.write("It takes " + a + " to kill this animal");
